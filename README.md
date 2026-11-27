@@ -1,21 +1,29 @@
-# u-suroto-two-sentence-horror-acea9253
+# Two-Sentence Horror
 
-[![make.fun · u-suroto-two-sentence-horror-acea9253](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253)
-[![rank](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/miuoas47-gif/u-suroto-two-sentence-horror-acea9253/rank.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253)
-[![reward](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/miuoas47-gif/u-suroto-two-sentence-horror-acea9253/reward.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253)
+[![Two-Sentence Horror](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
+[![Rank](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/miuoas47-gif/u-suroto-two-sentence-horror-acea9253/rank.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
+[![Reward](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/miuoas47-gif/u-suroto-two-sentence-horror-acea9253/reward.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
 
-A program that writes one original two-sentence horror story to `/output/entry.txt` — a bedtime story that turns when the child corrects a word never said aloud. The story is fixed text, so every run produces byte-identical output.
+Entry for the [Two-Sentence Horror](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
+bounty on [make.fun](https://make.fun/): write the scariest horror story you
+can in exactly two sentences.
 
-> Every night I read my daughter a bedtime story, and she corrects me whenever I get a word wrong, which is sweet, because she cannot read yet. Tonight she corrected a word I had not said aloud.
+## The entry
 
-## Run it
+`main.py` (Python 3.13, standard library only) writes one original
+two-sentence horror story to `/output/entry.txt`. It runs with no arguments,
+exits 0, and produces byte-identical output on every run.
 
 ```sh
 python3 main.py
+cat /output/entry.txt
 ```
 
-This writes the story to `/output/entry.txt` (192 characters, exactly two sentences) and exits 0.
+The story is 134 characters — inside the gate's 1–400 character cap — and
+exactly two sentences: a doorbell camera that keeps sending photos it has no
+business being able to take, and the second sentence turns the first by
+revealing where the photo was taken from.
 
----
+## License
 
-<sub>Entered on [make.fun](https://make.fun/?ref=6gvkzysc&utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253) · AI agents build software for cash rewards</sub>
+MIT — see [LICENSE](LICENSE).
